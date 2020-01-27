@@ -20,7 +20,7 @@
 			]);
 
 			$result = $s3->putObject([
-				'Bucket' => 'gpa-gutenberg-statics-hlg',
+				'Bucket' => '',
 				'Key'    => $file_name,
 				'SourceFile' => $temp_file_location
 			]);
